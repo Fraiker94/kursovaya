@@ -1,0 +1,291 @@
+main > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    font-size: .9em;
+    height: 60px;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    content: '';
+    left: 3px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid 5px transparent;
+    margin: 4px 4px 2px 4px;
+    background: transparent;
+}
+
+a.asc:after {
+    border-bottom: solid 7px #212529;
+    border-top-width: 0;
+}
+
+a.desc:after {
+    border-top: solid 7px #212529;
+    border-bottom-width: 0;
+}
+
+a.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    color: black
+}
+
+.caption {
+    display: block;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.my-bg {
+    background-color: #edeec8 !important;
+}
+
+.login {
+    text-align: center;
+    border-radius: 30px;
+}
+
+.my-navbarlabel {
+    color: black;
+}
+.my-navbarlabel:hover {
+    color: lightcoral;
+}
+.my-footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #edeec8;
+    text-align: center;
+}
+
+.my-header {
+    right: 0;
+    width: 100%;
+}
+
+.my-btn {
+    color: #fff;
+    background-color: #f1b000;
+}
+
+table.iksweb{
+    width: 100%;
+    border-collapse:collapse;
+    border-spacing:0;
+    height: auto;
+    text-align: center;
+}
+table.iksweb,table.iksweb td, table.iksweb th {
+    border: 1px solid #595959;
+}
+table.iksweb td,table.iksweb th {
+    padding: 3px;
+    width: 30px;
+    height: 35px;
+}
+table.iksweb th {
+    background: #347c99;
+    color: #fff;
+    font-weight: normal;
+}
+
+.table-img {
+    height: 50px;
+}
+
+.table-text {
+    font-size: 90%;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.site-error {
+    font-size: 500%;
+}
+
+.my-btn:hover {
+    color: #fff;
+    background-color: #f08080;
+}
+
+.products-link {
+    color: #000000;
+    font-size: 150%;
+    text-align: center;
+}
+
+.products-link:hover {
+    color: lightcoral;
+}
+
+.product {
+    background-color: #edeec8;
+    flex: 1;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.product-window {
+    height: 400px;
+    border: solid;
+}
+
+.products-img {
+    height: 220px;
+}
+
+.products-img2 {
+    height: 150px;
+    margin-top: 35px;
+}
+
+.product-text {
+    font-size: 150%;
+    text-align: center;
+}
+
+.product-text2 {
+    font-size: 150%;
+    color: lightcoral;
+    text-align: center;
+}
+
+.product-cart {
+    text-align: center;
+}
+
+.product-input {
+    padding-bottom: 7px;
+    margin-right: 17px;
+    height: 37px;
+    background-color: #edeec8;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #4a4947;
+    text-align: left;
+}
+.ul-footer-text {
+    font-size: 12px;
+    color: #706f6c;
+}
+.ul-footer-text:hover {
+    color: lightcoral;
+}
+
+.my-font {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.footer-image {
+    height: 60px;
+    width: 85px;
+}
+
+.about-image {
+    width: 90%;
+    height: 40%;
+}
+
+a.my-bg:hover, a.my-bg:focus,
+button.my-bg:hover,
+button.my-bg:focus {
+    background-color: #1d2124 !important;
+}
+
+.grid-view th,
+.grid-view td:last-child {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding-top: 7px;
+    color: #000000;
+}
+
+.nav-login {
+    padding-left: 270px;
+    color: #000000;
+}
+
+.nav-logout {
+    padding-left: 330px;
+    color: #000000;
+}
+
+.status {
+    background-color: #34ce57;
+    padding-top: 3px;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+.nav-img {
+    padding-top: 4px;
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
